@@ -1,0 +1,58 @@
+# atividade-11
+#include <stdio.h>
+
+
+
+
+int main () {
+
+float nota1,nota2,nota3,nota4;
+char aluno[100],matriculas;
+int contador,opcao=0;
+
+
+
+
+
+
+
+for (contador = 1; contador <= 5; contador++){
+printf("digite o nome do aluno:\n");
+scanf("%c", &aluno);
+printf("digite as notas do %c aluno (de 0 ate 100): \n", aluno);
+scanf("%f" ,&nota1);
+scanf("%f" ,&nota2 );
+scanf("%f" ,&nota3 );
+scanf("%f" ,&nota4 );
+}
+
+
+
+
+
+return (0);
+}
+
+
+float nota =(nota1+nota2+nota3+nota4);
+float media =(nota /4);
+
+printf("a nota geral dos alunos sao:\n",nota1 nota2, nota3, nota4);
+
+
+if (media <4) {
+printf("aluno reprovado \n");
+}else if (media < 6 && media >4 ) {
+printf (alunos aprovados \n);
+}else {
+pritnf("aluno de recuperação" \n"  );
+} */
+
+};
+
+return (0));
+}
+
+
+
+
